@@ -142,6 +142,7 @@ let template =
 "// {{ GenKit.datetime }}\n" +
 "//\n" +
 "// Changes to this file will not persist\n\n" +
+"import Foundation\n\n" +
 "struct {{ baseName }} {\n" +
 "{% for string in strings %}" +
 "{{ string.indentString }}" +
